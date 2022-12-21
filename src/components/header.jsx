@@ -1,11 +1,15 @@
 import * as React from "react";
+import logoIcon from '../images/logo.png'
+import sendIcon from '../images/send.png'
 
-import { HeaderContainer, Text } from "./headerStyled";
+import {HeaderContainer, HeaderImage} from "./headerStyled";
+import {Image} from "react-native";
+
 export default function HeaderComp() {
   return (
       <HeaderContainer >
-        <Text>Instagram</Text>
-        <Text>menu</Text>
+        <Image source={logoIcon}/>
+        <HeaderImage source={sendIcon}/>
       </HeaderContainer>
 
   );

@@ -4,13 +4,17 @@ export const HeaderContainer = styled.View`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 25px;
-  background-color: black;
+  padding: 20px;
   height: 100px;
   box-sizing: border-box;
   align-items: center;
+  margin-bottom: 30px;
+  //background-color: aquamarine;
+  elevation: 3;
+
 `;
 
-export const Text = styled.Text`
-  color: white;
+export const HeaderImage = styled.Image`
+  width: 23px;
+  height: 23px;
 `;
