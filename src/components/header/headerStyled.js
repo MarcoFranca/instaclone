@@ -1,17 +1,14 @@
 import styled from 'styled-components/native';
-
 export const HeaderContainer = styled.View`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px;
-  height: 100px;
-  box-sizing: border-box;
+  padding: 0 15px;
+  height: 55px;
   align-items: center;
-  margin-bottom: 30px;
-  //background-color: aquamarine;
-  elevation: 3;
-
+  mso-shadow-color: #000;
+  border-bottom-width: 0.1px;
+  elevation: 2;
 `;
 
 export const HeaderImage = styled.Image`
